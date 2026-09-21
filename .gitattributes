@@ -1,0 +1,29 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+b-Module-GE/1100-底盘架.x_t -text
+b-Module-NX.7z -text
+b-Module-NX/1100-底盘架_x_t.prt -text
+b-Module-NX/1121-架子_id101_x_t.prt -text
+b-Module-NX/1122-前_id96_x_t.prt -text
+b-Module-NX/1123-缓震架子_id59_x_t.prt -text
+b-Module-NX/1124-轮_id48_x_t.prt -text
+b-Module-NX/1125-屏幕_id28_x_t.prt -text
+b-Module-NX/1126-电源开关_id23_x_t.prt -text
+b-Module-NX/1127-电池_id91_x_t.prt -text
+b-Module-NX/1128-电机_id86_x_t.prt -text
+b-Module-NX/1129-充电口_id38_x_t.prt -text
+b-Module-NX/112A-超声波遮挡_id18_x_t.prt -text
+b-Module-NX/112E-u型支架_id11_x_t.prt -text
+b-Module-NX/112F-中控存放板件_id6_x_t.prt -text
+b-Module-NX/112G-外壳-1-1_id43_x_t.prt -text
+b-Module-NX/112G-外壳-1-2_id66_x_t.prt -text
+b-Module-NX/112H-超声波雷达_id71_x_t.prt -text
+b-Module-NX/112I-中控存放板件-2_id76_x_t.prt -text
+b-Module-NX/112J-尾翼_id81_x_t.prt -text
+b-Module-NX/小车装配.prt -text
+b-Module-NX/零件1_id33_x_t.prt -text
+b-Module-SE/0-装配体.asm -text
+b-Module-SE/0-装配体.cfg -text
+b-Module-SE/零件.par -text
